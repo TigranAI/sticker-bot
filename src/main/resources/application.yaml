@@ -1,0 +1,5 @@
+telegram:
+  host: https://api.telegram.org
+
+server:
+  port: 8080
