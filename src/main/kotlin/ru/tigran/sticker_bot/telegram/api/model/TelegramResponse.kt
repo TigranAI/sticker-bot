@@ -1,4 +1,4 @@
-package ru.tigran.sticker_bot.telegram.api.model.response
+package ru.tigran.sticker_bot.telegram.api.model
 
 import ru.tigran.sticker_bot.telegram.api.model.exception.TelegramClientException
 

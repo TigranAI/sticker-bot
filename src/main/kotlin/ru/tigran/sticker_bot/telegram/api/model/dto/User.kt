@@ -1,4 +1,4 @@
-package ru.tigran.sticker_bot.telegram.api.model.response
+package ru.tigran.sticker_bot.telegram.api.model.dto
 
 data class User(
     val id: Long,
