@@ -1,4 +1,4 @@
-package ru.tigran.sticker_bot.configuration
+package ru.tigran.stickerbot.configuration
 
 import io.mockk.coEvery
 import io.mockk.mockk

@@ -1,4 +1,4 @@
-package ru.tigran.sticker_bot
+package ru.tigran.stickerbot
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

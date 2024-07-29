@@ -1,4 +1,4 @@
-package ru.tigran.sticker_bot.configuration
+package ru.tigran.stickerbot.configuration
 
 import org.springframework.test.context.DynamicPropertyRegistry
 import org.springframework.test.context.DynamicPropertySource

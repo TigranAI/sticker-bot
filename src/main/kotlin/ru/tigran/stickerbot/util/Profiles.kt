@@ -1,4 +1,4 @@
-package ru.tigran.sticker_bot.util
+package ru.tigran.stickerbot.util
 
 class Profiles {
     companion object {
