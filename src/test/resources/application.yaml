@@ -1,0 +1,8 @@
+telegram:
+  api:
+    host: http://localhost
+    token: test-token
+  poller:
+    delay: 100ms
+    timeout: 1s
+    limit: 100
