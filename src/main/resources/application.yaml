@@ -2,9 +2,7 @@ telegram:
   api:
     host: https://api.telegram.org
   poller:
-    delay: 100ms
-    timeout: 1s
-    limit: 100
+    enabled: true
 
 server:
   port: 8080
