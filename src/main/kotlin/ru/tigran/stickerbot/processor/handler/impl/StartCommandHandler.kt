@@ -10,12 +10,12 @@ import ru.tigran.telegram.bots.api.model.request.SendMessageRequest
 @Component
 class StartCommandHandler(
     chatMessages: InMemoryChatMessages,
-    private val telegramAsyncClient: TelegramAsyncClient,
+    private val telegramClient: TelegramAsyncClient,
 ) : MessageHandler(chatMessages) {
     override fun isSuitable(message: Message) = message is Message.FullMessage && message.text == "/start"
 
     override suspend fun handle(message: Message) {
-        telegramAsyncClient.sendMessage(SendMessageRequest(
+        telegramClient.sendMessage(SendMessageRequest(
             chatId = message.chat.id.toString(),
             text = "Привет!"
         ))
